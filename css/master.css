@@ -610,10 +610,6 @@ footer .social ul li i {
 /* start check-domain */
 .check-domain {
     padding-bottom : var(--section-padding)
-
-}
-.check-domain .container {
-
 }
 .check-domain form {
    background-color: #f8fafc;
@@ -751,7 +747,7 @@ footer .social ul li i {
   /* end .features */
   /* start team */
   .team {
-      padding-bottom : var(--section-padding)
+      padding : var(--section-padding) 0;
   }
   .team .content{
      display: flex;
